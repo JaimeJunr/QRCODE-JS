@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="src/qrcode.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <link rel="stylesheet" href="/dist/styles/main.css">
+</head>
+<body>
+    
+    
+    <h1>Gerador QRCODE</h1>
+    <p>
+        Digite o Link qual quer gerar e aproveite
+    </p>
+    <form id="form-container">
+        <input id="inp-valor" type="text">
+        <button id="btn" type="submit">Enviar</button>
+    </form>
+    
+    <div id="qrcode"></div>
+    
+    <script src="src/main.js"></script>
+</body>
+</html>
